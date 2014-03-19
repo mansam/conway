@@ -50,7 +50,6 @@ def ch(x):
         return " "
 
 def main(stdscr):
-    """just repeatedly redraw a long string to reveal the window boundaries"""
     curses.init_pair(1, curses.COLOR_RED, curses.COLOR_BLACK)
     board = []
     rows = input()
